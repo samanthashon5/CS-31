@@ -1,2 +1,4 @@
 # CS-31
-UCLA CS 31 with Huang
+Introduction to Computer Science [CS 31 Huang]
+
+
