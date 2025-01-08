@@ -1,0 +1,23 @@
+﻿Samantha Shon         UCLA ID: 506170927
+
+
+Step 5:
+I input negative integers such as -50 for those who voted for the Republican Party and entered the same integer but positive (so 50 for those who voted for the Democratic Party). 
+
+
+This meant that the overall number of electors would be 0. In doing so, this resulted in “inf%” for the percentage of democratic and republican voters.
+
+
+logic_error.cpp:
+Line 6: change 100 to 1000
+
+
+This means that even if the Republican party wins or if there is a tie, the result will always be that the Democratic party wins. If there are 50 electors and 25 vote for the Republican party and 25 vote for the Democratic party, 50% will show as the percentage of voters who were Republican while 500% will show as the percentage of voters who were Democratic, leading to a Democratic win.
+
+
+Compile_error.cpp:
+Line 22: removed “;”
+Line 32: changed “cint >>” to “cint <<”
+
+
+The build failed as the compiler reported an expected “;” after the expression as well as invalid operands to the binary expression
